@@ -1,0 +1,25 @@
+body{
+    font-family:  Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    te
+}
+h1{
+    color: rgb(227, 231, 221);
+}
+
+#message-el{
+    font-style: italic;
+
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+
+}
