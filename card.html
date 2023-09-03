@@ -1,20 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casino App</title>
-    <link rel="stylesheet" href="card.css">
-    
+<title>Responsive Card</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+<style>
+.card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-footer {
+  padding: 1rem;
+  text-align: right;
+}
+</style>
 </head>
 <body>
-    <h1>The Cardapp</h1>
-    <p id="message-el">Do you want to play around?</p>
-    <p id="card-el">Cards: </p>
-    <p id="sum-el"> Sum: </p>
-    <button onclick="startGame()">Start Game</button>
 
-    <script src="card.js"></script>
+<div class="card">
+  <img class="card-image" src="https://picsum.photos/200/300" alt="Card image">
+  <div class="card-content">
+    <h2 class="card-title">Abdul-Rahaman Yussif</h2>
+    <p class="card-text">Founder and CEO</p>
+    <p class="card-text">abdulrahamanyussif62@gmail.com</p>
+    <p class="card-text">+233558779247</p>
+    <p class="card-text">NY-0016-6393</p>
+  </div>
+  <div class="card-footer">
+    <a href="#">View profile</a>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
